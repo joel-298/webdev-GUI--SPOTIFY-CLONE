@@ -1,0 +1,947 @@
+.main{
+    padding:0%;margin: 0%;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:100vh;
+    width:100%;
+}
+
+.col1{
+    margin: 0%;padding: 0px;
+    height:91vh;
+    width:24%;
+    background-color:black;
+    display:flex;
+    align-items: start;
+    justify-content:flex-start;
+    flex-direction: column;
+    
+}
+
+.col11{
+    margin:5px;margin-left: 1px;
+    margin-top: 8px;
+    height:13vh;
+    width:95%;
+    border:2px solid rgb(12, 12, 12);
+    border-radius:10px;
+    background-color:rgb(12, 12, 12);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+.col11 > h1{
+    color:rgb(201, 201, 201);font-family: 'Libre Baskerville', serif;
+     
+}
+ 
+.col11 h1 img {
+    height:20%;
+    width:20%;
+    border-radius:10px;
+    margin-left:0.5%;
+}
+
+/* JIYA GABBA */
+.col12{
+    margin:5px;margin-left: 1px;
+    margin-top:8px;
+    width:95%;
+    height:75vh;                                
+    border:2px solid rgb(11, 11, 11);
+    border-radius:10px;
+    background-color: rgb(12, 12, 12);
+    display:flex;flex-wrap: wrap;
+    text-align:center;
+}
+
+.col12b1{
+    margin:0%;
+    height:40%;
+    width:100%;
+    background-color:transparent; 
+     
+}
+.box1 {
+    margin:0;
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+}
+.Buttons{
+    width:95%;height:20%;text-align: start;padding-left:17px;background-color:transparent;
+    padding-top: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: 'Libre Baskerville', serif;
+    margin-left:2.2%;
+}
+/* .material-symbols-outlined{
+    margin-top: 7px;
+} */
+
+.Buttons:hover {
+    background:rgb(68, 70, 71);
+    cursor: pointer;
+    border-radius: 10px;
+    height:20%;
+}
+
+.Buttons1{
+    width:95%;height:20%;text-align: start;padding-left:10px;background-color:transparent;
+    padding-top: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: 'Libre Baskerville', serif;
+    margin-left:2.2%;
+}
+/* .material-symbols-outlined{
+    margin-top: 7px;
+} */
+
+.Buttons1:hover {
+    background:rgb(68, 70, 71);
+    cursor: pointer;
+    border-radius: 10px;
+    height:20%;
+}
+.box1 a {
+    width:95%;height:20%;
+    display:flex;
+    text-decoration: none;
+    background-color:transparent;
+    /*padding-bottom:20px;*/
+    /*padding-top: 7px;*/
+    color:rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: 'Libre Baskerville', serif;
+    margin-left:2.2%;
+}
+.box1 a:hover {    
+    background:rgb(68, 70, 71);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.col12b2{
+    height:55%;
+    background-color: black;
+    width:85%;
+    border-radius: 15px;
+    margin-left:10px;margin-right:10px;
+    padding:10px;
+    
+}
+h1{
+    text-align: centre;
+    color:white;
+    font-family: 'Libre Baskerville', serif;
+}
+p2{
+    font-family: 'Libre Baskerville', serif;
+    color:white,
+}
+.col12 > div{
+    font-size: 16px;color: white;width:100%;
+}
+
+.box2{
+    width:100%;height:22%;
+    background-color:transparent;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:0%;
+    color:white;
+    align-items: center;
+    padding-left:6.7%;
+    font-family: 'Libre Baskerville', serif;
+  
+}
+.col12b1 a {
+    text-decoration: none;
+    
+ }
+
+.box2:hover{
+    background:rgb(68, 70, 71);
+    cursor: pointer;
+    border-radius: 10px;
+    height:20%;
+    width:95%;
+    margin-left:9px;
+    padding-left:4%;
+    align-items: center;
+}
+
+/*--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col2{
+    margin: 0%;padding: 0%;margin-top: 9px;
+    height:89vh;
+    border-radius: 10px ;
+    width:74%;
+    background:linear-gradient(rgb(46, 0, 37),rgb(42, 43, 44)); 
+    /* background:rgb(12,12,12); */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /* ,rgb(36, 134, 151) */
+}
+
+/* 
+background:linear-gradient(rgb(11, 40, 45),rgb(18, 78, 89)); */
+
+                                            /* S C R O L L    code details     */
+.col2:hover{
+    overflow:overlay;
+                                            
+}
+
+.col2::-webkit-scrollbar{
+    width:0px;
+    background:transparent;
+}
+.col2::-webkit-scrollbar-thumb{
+    width:0px;
+    background:transparent;
+} 
+
+.col2:hover::-webkit-scrollbar{
+    width:0px;
+    background:transparent;
+}
+.col2:hover::-webkit-scroll-thumb{
+    width:0px;
+    background:rgb(98, 107, 109);
+} 
+/***/
+
+.box21{
+    margin:0%;
+    width:100%;height:45%;
+    background:transparent;
+    display:flex;flex-direction: column;flex-wrap: wrap;
+    background-image: url("/Albums/Artists/Coldplay/bg_img.png");
+    
+
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x: right ;
+    background-color: transparent;
+    border-radius:10px;
+    box-shadow: 0px 0px 100px -20px black;
+    /* border:1px solid white; */
+
+}
+/*--MY SECTION--*/
+.box211 {
+    margin:0%;
+    height:8%;width:74%;
+    background:linear-gradient(rgb(11,11,11),transparent);
+    color :white;
+    position:fixed;
+    display: flex;
+    flex-direction: column;flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5px;
+    border-radius: 10px;
+    z-index:5;
+
+}
+
+/*SEARCH BAR*/
+.search{
+    height:70%;width:45%;
+    background:rgb(31, 30, 30);
+    display:flex;
+    align-items:center;
+    border-radius:60px;
+    padding-left:20px;
+}
+.search-bar input{
+    background:transparent;border:0;outline:none;width:150%;
+    padding-top:5px;   /*here 1st represents top and bottom and 2nd represents left and right*/
+    padding-bottom:5px;
+    padding-left:15px;
+    font-size:15px;
+    color:rgb(255, 244, 244);
+    
+}
+::placeholder{
+    color:rgb(102, 99, 99);
+    width:90%;
+
+}
+
+
+
+
+.box212{
+    margin-top:6.5%;margin-left:15px;
+    height:80%;width:80%;
+    background:transparent; 
+    /* border:1px solid white;   */
+    /* border-radius: 5px ; */
+    display:flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* justify-content:flex-start; */
+    align-items: center;
+    
+}
+
+
+
+.album_img > img {
+   height:200px;
+   width:250px;
+   margin-left: 20px;
+   box-shadow: 0px 0px 50px -20px white;
+   border-radius:10px;
+}
+
+
+.A{
+    height:100%;
+    width:60%;
+    /* border:1px solid white; */
+    margin-left:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.A h1 {
+    /* border:1px solid white; */
+    height:20%;width:98%;
+    margin-left:20px;
+    margin-top:15px;
+    color:white;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.A h3 {
+    /* border:1px solid rgb(103, 103, 103); */
+    margin-left:20px;
+    margin-top:5px;
+    color:rgb(203, 203, 203);
+    font-size: medium;
+    font-family: 'Libre Baskerville', serif; 
+    
+}
+/******/
+
+
+
+
+
+
+/* JOYASH */
+
+/*(JOYASH) You have to write your css code here in this section below*/
+
+
+.box22{
+    margin:0%;
+    width:100%;height:55%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color:transparent;
+    /* border:1px solid white; */
+    background:transparent;
+    justify-content: center;
+    column-gap:25px;
+    padding-top: 20px;
+    padding-left:-10px;
+    row-gap: 25px;
+    padding-bottom:20px;
+}
+
+
+
+
+
+.song:hover{
+    background-color:rgb(86, 89, 90);          /************************************/
+    cursor: pointer;
+}
+
+
+
+
+
+.song{
+    background-color: rgb(21, 22, 23);
+    border:2px solid transparent;
+    display: flex;
+    height:85%;
+    width:180px;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: row;
+    /* float:right; */
+    /* margin-top: 0 px; */
+    /* margin-left:15px; */
+}
+/* background-color: rgb(26, 28, 29); */
+.figure{
+    height:100%;
+    width:100%;
+    border-radius:10px;
+}
+
+
+.song img{
+    height:165px;
+    width:145px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    position:relative;
+    margin-left:15px;
+    top:15px;
+
+   
+}
+.bi-play-circle-fill{
+    position:relative;
+    float:center;bottom:40px;
+    left:110px;
+    height:40px;width:40px;visibility: hidden;
+} 
+.song:hover .bi-play-circle-fill{
+    visibility: visible;                                /* Visiblity of play button */
+    background-color: transparent;
+    border-radius:100%;
+    color:rgb(199, 215, 234);
+    background:transparent;
+    transition:1s;
+    /* opacity: 0; */
+    text-decoration: none;
+}
+
+
+.song figcaption{
+    /*margin-top:5px;*/
+    font-size: 15px;
+    font-weight: 400;
+    color:white;
+    /* text-overflow: ellipsis; */
+    overflow: hidden;
+    margin-left: 15px;
+    font-family: 'Libre Baskerville', serif;
+    cursor: pointer;
+    /* white-space: nowrap; */
+
+}
+
+
+.song  .subtitle{
+    font-size:13px;
+    margin-top: 0px;
+    /* font-weight: 400; */
+    color:rgb(165, 164, 164);
+    font-family: 'Libre Baskerville', serif;
+}
+/***********************************/
+
+
+
+
+/*****/ /*Jiya gabba's SECTION*/
+.col3{
+    height:8vh;
+    width:90%;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:white;
+}
+.col31{
+    height:94.5%;width:98%;
+    margin:0.1%;margin-left:1.1%;margin-bottom:1%;
+    border-radius: 10px;
+    background-color:rgb(12,12,12);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:start;
+
+}
+
+
+
+
+
+.wave {
+    display:flex;
+    align-items: flex-end;
+    width:50px;
+    height:40px;
+    margin:10px 20px;
+    margin-top:8px;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.wave1{
+   width:9.3px; 
+   height:30px;
+   background:rgb(129, 48, 209);
+   animation: wave .5s linear infinite; 
+}
+.col31 .wave .wave1:nth-child(2) {
+    width:9.3px; 
+    height:20px;
+    background:rgb(129, 48, 209);
+    animation-delay: .4s;
+ }
+.col31 .wave .wave1:nth-child(3){
+    width:9.3px; 
+    height:13px;
+    background:rgb(129, 48, 209);
+    animation-delay: .8s;
+}
+
+/* javascript classes */
+.col31 .active1 .wave1 {
+    animation: wave .5s linear infinite; 
+}
+.col31  .active1 .wave1:nth-child(2){
+    animation-delay: .4s;
+ }
+.col31 .active1 .wave1:nth-child(3){
+    animation-delay: .8s;
+}
+
+@keyframes wave {
+    0% {
+        height: 30px;
+    }
+    50% {
+        height:20px;
+    }
+    100% {
+        height:13px;
+    }
+}
+
+.col31 img{
+    width:50px;height:50px;margin-top:3.7px;
+    border-radius: 5px;
+    border:2px solid rgb(226, 220, 220);
+    box-shadow: 0px 0px 20px -10px white;
+}
+.col31 figcaption{
+    width:250px;height:56px;
+    margin-left:15px;
+    color:white;
+    /* padding:5px;padding-top:6px;padding-bottom:4px; */
+    font-size: 15px;
+    /* overflow: hidden; */
+    /* border:1px solid white ; */
+    padding-bottom:10px;
+    padding-top:7px;
+    padding-left:0px;
+    font-family: 'Libre Baskerville', serif;
+}
+.col31 figcaption .subtitle{
+    font-size:15px;
+    color:rgb(132, 141, 136);
+    font-family: 'Libre Baskerville', serif;
+}
+/*****/
+
+
+/*JOYASH'S SECTION*/
+.icons{
+    display:flex;
+    height:45px;width:250px;
+    align-items: flex-end;
+    padding-right:1%;
+    /* border:1px solid white; */
+    border-radius:50px;
+    flex-direction: row;
+    column-gap:5%;
+    margin-top:6px;
+    background-color:rgb(21, 22, 23);   
+}
+
+.icons .bi{
+    cursor: pointer;
+    outline: none;
+}
+
+/* .icons .bi:nth-child(3){
+    border:1px solid rgb(105,105,105,.1);
+    border-radius:35%;
+    padding:5px 10px;
+} */
+
+.bi-repeat{
+    font-size:25px;
+    margin-bottom:3.8px;
+    margin-left:10px;
+    width:50px;
+    text-align: center;padding-right: 1.5px;
+}
+
+.bi-repeat:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius:35%;
+}
+
+.bi-repeat-1{
+    font-size:25px;
+    margin-bottom:3.8px;
+    margin-left:10px;
+    width:50px;
+    text-align: center;padding-right: 1.5px;
+}
+
+.bi-repeat-1:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius:35%;
+}
+.bi-shuffle{
+    font-size:25px;
+    margin-bottom:3.8px;
+    margin-left:10px;
+    width:50px;
+    text-align: center;padding-right: 1.5px;
+}
+
+.bi-shuffle:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius:35%;
+}
+
+
+/*** next **/
+.icons > .shuffle > p {
+    position:absolute;
+    visibility:hidden;
+    font-size:1px;
+}
+
+
+
+
+
+
+.skip-play-skip{
+    /* background-color: blueviolet; */
+    /* border:1px solid white; */
+    display:flex;
+    flex-direction:row;
+    height:100%;
+    /* margin-top:5px;margin-bottom:5px; */
+    column-gap: 5px;
+    align-items:flex-end;
+    /* padding-top:0.1px; */
+    width:55%;
+
+}
+
+.bi-play-fill{
+    font-size: 27px;
+    color : white;
+    height:75%;
+    width:60%;
+    padding:0%;
+    margin:0%;
+    text-align: center;
+    /* background-color: #36d1ce; */
+    margin-bottom:3px;
+    padding-left:.1px;
+    padding-bottom:40px;
+}
+
+.bi-play-fill:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius:10px;
+    /* PADDING-BOTTOM:10px; */
+    /* margin:0px 5px; */
+}
+
+.bi-pause-fill{
+    font-size: 27px;
+    color : white;
+    height:75%;
+    width:60%;
+    padding:0%;
+    margin:0%;
+    text-align: center;
+    /* background-color: #36d1ce; */
+    margin-bottom:3px;
+    padding-left:.1px;
+    padding-bottom:40px;
+}
+
+.bi-pause-fill:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius: 10px;
+}
+
+
+
+.bi-skip-start-fill{
+    font-size: 27px;
+    color : white;
+    height:75%;
+    width:60%;
+    padding:0%;
+    margin:0%;
+    text-align: center;
+    /* background-color: #36d1ce; */
+    margin-bottom:3px;
+    padding-left:2px;
+    padding-bottom:40px;
+}
+
+.bi-skip-start-fill:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius: 10px;
+}
+
+.bi-skip-end-fill{
+    font-size: 27px;
+    color : white;
+    height:75%;
+    width:60%;
+    padding:0%;
+    margin:0%;
+    text-align: center;
+    /* background-color: #36d1ce; */
+    margin-bottom:3px;
+    padding-left:2px;
+    padding-bottom:40px;
+}
+.bi-skip-end-fill:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius: 10px;
+}
+
+
+.bi-cloud-arrow-down-fill{
+    font-size:29px;
+    margin-bottom:3.8px;
+    /*margin-left:10px;*/
+    width:50px;
+    /* text-align: center; */
+    padding-right:5px;
+    padding-left:5px;
+    color:white;
+}
+
+.bi-cloud-arrow-down-fill:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius:35%;
+}
+
+/****/
+
+
+
+
+.length{
+    display:flex;
+    height:45px;width:400px;
+    padding-right:18px;
+    background:rgb(21,22,23);
+    border-radius:50px;
+    margin-left:20px;
+    align-items: center;
+    margin-top:6px;
+}
+
+
+
+#currentStart{
+    margin: 0px 0px 0px 20px ;
+}
+
+
+.bar{
+
+    position:relative;
+    width:70%;height:2px;
+    background: rgb(105,105,170,.1);
+    margin:0px 15px 0px 10px;
+}
+.bar2{
+    position:absolute;
+    background: rgb(129, 48, 209);
+    width:0%;height:100%;
+    top:0;
+    transition:1s linear;
+
+}
+.dot{
+    position:absolute;
+    width:5px;height:5px;
+    background:  rgb(129, 48, 209);
+    border-radius: 50%;
+    left:0%;
+    top:-1.5px;
+    transition:1s linear;
+}
+
+.dot::before{
+    position:absolute;
+    content: '';
+    width:15px;height:15px;
+    border:1px solid  rgb(129, 48, 209);
+    border-radius: 50%;
+    left:-5px;
+    top:-5px;
+    box-shadow: inset 0px 0px 3px rgb(129, 48, 209);
+}
+
+
+
+
+
+
+/*------*/
+.bar input{
+    position:absolute;
+    width:104.3%;
+    height:20px;
+    top:-9px;
+    left:-0px;
+    cursor:pointer;
+    z-index: 999999999999999999999999999999;
+    opacity: 0;
+}
+
+#currentEnd{
+    margin: 0px 0px 0px 20px ;
+}
+/**VOLUME BAR**/
+
+
+.vol{
+    display:flex;
+    height:45px;width:200px;
+    border-radius:50px;
+    padding-right:5px;
+    padding-left:15px;
+    margin-left:1.4%;
+    background:rgb(21,22,23);
+    align-items: center;
+    margin-top:6px;
+}
+.bar_vol{
+
+    position:relative;
+    width:60%;height:2px;
+    background: rgb(105,105,170,.1);
+    margin:0px 15px 0px 10px;
+}
+.bar2_vol{
+    position:absolute;
+    background: rgb(129, 48, 209);
+    width:100%;height:100%;
+    top:0;
+    transition:1s linear;
+
+}
+.dot_vol{
+    position:absolute;
+    width:5px;height:5px;
+    background:  rgb(129, 48, 209);
+    border-radius: 50%;
+    left:100%;
+    top:-1.5px;
+    transition:1s linear;
+}
+.dot_vol::before{
+    position:absolute;
+    content: '';
+    width:15px;height:15px;
+    border:1px solid  rgb(129, 48, 209);
+    border-radius: 50%;
+    left:-5px;
+    top:-5px;
+    box-shadow: inset 0px 0px 3px  rgb(129, 48, 209);
+}
+.bar_vol input{
+    position:absolute;
+    width:110%;
+    top:-7px;
+    left:-0.8px;
+    cursor:pointer;
+    z-index: 999999999999999999999999999999;
+    opacity: 0;
+}
+
+
+
+.bi-volume-down-fill{
+    font-size:25px;
+    height:80%;width:20%; 
+    text-align: center;
+}
+.bi-volume-down-fill:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius: 10px;
+}
+
+
+.bi-volume-up-fill{
+    font-size:25px;
+    height:80%;width:20%; 
+    text-align: center;
+}
+.bi-volume-up-fill:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius: 10px;
+}
+
+.bi-volume-mute-fill{
+    font-size:25px;
+    height:80%;width:20%; 
+    text-align: center;
+}
+.bi-volume-mute-fill:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius: 10px;    
+}
+
+.bi-volume-off-fill{
+    font-size:25px;
+    height:80%;width:20%; 
+    text-align: center;
+}
+.bi-volume-off-fill:hover{
+    background-color: rgb(136, 128, 128);
+    border-radius: 10px;      
+}
