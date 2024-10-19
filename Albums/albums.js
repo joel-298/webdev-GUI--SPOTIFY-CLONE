@@ -29,37 +29,37 @@ const Artists = [
         id: 6,
         songName: `Eminem`,
         poster : "/Albums/artists_poster_images/6.jpg",
-    },
-    {
-        id: 7,
-        songName: `Guns N' Roses`,
-        poster : "/Albums/artists_poster_images/7.jpg",
-    },
-    {
-        id: 8,
-        songName: `Jagjit Singh`,
-        poster : "/Albums/artists_poster_images/8.jpg",
-    },
-    {
-        id: 9,
-        songName: `Juice Wrld`,
-        poster : "/Albums/artists_poster_images/9.jpg",
-    },
-    {
-        id: 10,
-        songName: `Shawn Mendes`,
-        poster : "/Albums/artists_poster_images/10.jpg",
-    },
-    {
-        id: 11,
-        songName: `KK`,
-        poster : "/Albums/artists_poster_images/11.jpg",
-    },
-    {
-        id: 12,
-        songName: `Zayn Malik`,
-        poster : "/Albums/artists_poster_images/12.jpg",
-    },
+    }
+    // {
+    //     id: 7,
+    //     songName: `Guns N' Roses`,
+    //     poster : "/Albums/artists_poster_images/7.jpg",
+    // },
+    // {
+    //     id: 8,
+    //     songName: `Jagjit Singh`,
+    //     poster : "/Albums/artists_poster_images/8.jpg",
+    // },
+    // {
+    //     id: 9,
+    //     songName: `Juice Wrld`,
+    //     poster : "/Albums/artists_poster_images/9.jpg",
+    // },
+    // {
+    //     id: 10,
+    //     songName: `Shawn Mendes`,
+    //     poster : "/Albums/artists_poster_images/10.jpg",
+    // },
+    // {
+    //     id: 11,
+    //     songName: `KK`,
+    //     poster : "/Albums/artists_poster_images/11.jpg",
+    // },
+    // {
+    //     id: 12,
+    //     songName: `Zayn Malik`,
+    //     poster : "/Albums/artists_poster_images/12.jpg",
+    // },
     
 ]
 

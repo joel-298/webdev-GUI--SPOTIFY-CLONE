@@ -361,9 +361,6 @@ background:linear-gradient(rgb(11, 40, 45),rgb(18, 78, 89)); */
     background-color:transparent;
 }
 
-/* JOYASH */
-
-/*(JOYASH) You have to write your css code here in this section below*/
 .box221{
     margin:15px;
     margin-top:0%;
@@ -393,9 +390,6 @@ background:linear-gradient(rgb(11, 40, 45),rgb(18, 78, 89)); */
 }
 /*--*/
 
-/* JIYA */
-
-/*(Jiya) You have to write your css code here in this section below*/
 .box222{
     margin:15px;
     margin-top:0%;
@@ -409,7 +403,7 @@ background:linear-gradient(rgb(11, 40, 45),rgb(18, 78, 89)); */
     box-shadow:0px 0px 50px 0px rgb(33, 33, 33);
     
 } 
-/* /(Jiya) You have to write your css code here in this section below/ */
+
 .suggested{
     width: 30%;background-color: rgb(11,11,11);color:white;font-family: 'Libre Baskerville', serif;
     background-color:transparent;
@@ -571,7 +565,7 @@ background:linear-gradient(rgb(11, 40, 45),rgb(18, 78, 89)); */
 
 
 
-/*****/ /*Jiya gabba's SECTION*/
+
 .col3{
     height:8vh;
     width:90%;
@@ -677,7 +671,6 @@ background:linear-gradient(rgb(11, 40, 45),rgb(18, 78, 89)); */
 /*****/
 
 
-/*JOYASH'S SECTION*/
 .icons{
     display:flex;
     height:45px;width:250px;
